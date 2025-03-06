@@ -56,6 +56,15 @@ h1, p {
     50% { opacity: 0.5; }
 }
 
+.secretButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  transform-origin: top left;
+  color: rgba(0, 0, 0, 0);
+}
 
 #content {
   position: relative;

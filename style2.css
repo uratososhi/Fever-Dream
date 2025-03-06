@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background-image: url('12640.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#Ian {
+    width: 1100px;
+}

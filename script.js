@@ -1,3 +1,5 @@
+const secretButton = document.getElementById("secretButton")
+
 // Create and control audio context for random volume adjustments
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const audioElement = new Audio('path/to/terrifying-sound.mp3');
@@ -61,3 +63,8 @@ setInterval(randomizeColor, 3000); // Randomize background color every 3 seconds
 document.addEventListener('mousemove', () => {
     randomizePosition(); // Update content position on mouse movement
 });
+
+secretButton.addEventListener("click", () => {
+    window.location.href = "page2.html";
+    alert('Click!')
+  });
